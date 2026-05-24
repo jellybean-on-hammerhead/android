@@ -9,7 +9,7 @@
            fetch="https://github.com/jellybean-on-hammerhead" />
 
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
-  <remove-project name="hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/display" />
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
 
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
