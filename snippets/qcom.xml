@@ -10,8 +10,10 @@
 
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
   <remove-project name="platform/hardware/qcom/display" />
+  <remove-project name="platform/hardware/qcom/sensors" />
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
 
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" revision="a80e42523ad00fdca7e33a76a6cb78469042777b" remote="aosp-klp" />
+  <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" remote="aosp-klp" />
 </manifest>
