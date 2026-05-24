@@ -10,4 +10,5 @@
 
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead" revision="aosp-4.3.1" remote="github" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" revision="b72f878d7a5a83be1c4824007b9db629490b34e4" remote="aosp-klp" />
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
 </manifest>
