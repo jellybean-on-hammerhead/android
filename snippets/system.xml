@@ -12,5 +12,5 @@
   <remove-project name="platform/system/core" />
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
 
-    <project path="system/core" name="platform/system/core" groups="pdk" revision="aosp-4.3.1-hammerhead" remote="github" />
+    <project path="system/core" name="platform_system_core" groups="pdk" revision="aosp-4.3.1-hammerhead" remote="github" />
 </manifest>
