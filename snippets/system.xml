@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp-klp"
+           fetch="https://android.googlesource.com" 
+           revision="refs/tags/android-4.4_r1" />
+
+  <remote  name="github"
+           fetch="https://github.com/jellybean-on-hammerhead" />
+
+ <!-- Removal of stuff that is getting replaced to make this work in the first place -->
+  <remove-project name="platform/system/core" />
+ <!-- Removal of stuff that is getting replaced to make this work in the first place -->
+
+    <project path="system/core" name="platform/system/core" groups="pdk" revision="aosp-4.3.1-hammerhead" remote="github" />
+</manifest>

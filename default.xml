@@ -384,4 +384,5 @@
 
   <include name="snippets/hammerhead.xml" />
   <include name="snippets/qcom.xml" />
+  <include name="snippets/system.xml" />
 </manifest>
