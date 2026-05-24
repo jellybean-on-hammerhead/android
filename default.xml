@@ -383,6 +383,6 @@
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
 
   <include name="snippets/hammerhead.xml" />
-  <include name="snippets/qcom.xml" />
+  <include name="snippets/hw.xml" />
   <include name="snippets/system.xml" />
 </manifest>
