@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp-klp"
+           fetch="https://android.googlesource.com" 
+           revision="refs/tags/android-4.4_r1" />
+
+  <remote  name="github"
+           fetch="https://github.com/jellybean-on-hammerhead" />
+
+ <!-- Removal of stuff that is getting replaced to make this work in the first place -->
+  <remove-project name="hardware/qcom/display" />
+ <!-- Removal of stuff that is getting replaced to make this work in the first place -->
+
+  <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
+  <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" revision="a80e42523ad00fdca7e33a76a6cb78469042777b" remote="aosp-klp" />
+</manifest>
