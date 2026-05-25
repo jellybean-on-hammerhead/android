@@ -13,6 +13,8 @@
   <remove-project name="platform/hardware/qcom/sensors" />
   <remove-project name="platform/hardware/invensense" />
   <remove-project name="platform/hardware/libhardware" />
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <remove-project name="platform/hardware/broadcom/wlan" />
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
 
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
@@ -20,4 +22,6 @@
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" remote="aosp-klp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="9b98ed996e18d6097c9976c9cfe9a0c9397998fe" remote="aosp-klp" />
   <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="invensense" revision="aosp-4.3.1-hammerhead" remote="github" />
+  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" revision="5393a0f77c5281735888bd9dcf8d8abeb5961461" remote="aosp-klp" />
+  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="45e2cbacbf065d502a124bf36c86c10e4b54ba43" remote="aosp-klp" />
 </manifest>
