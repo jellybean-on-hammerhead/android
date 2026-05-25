@@ -9,5 +9,5 @@
            fetch="https://github.com/jellybean-on-hammerhead" />
 
   <project path="device/lge/hammerhead" name="android_device_lge_hammerhead" groups="device,hammerhead" revision="aosp-4.3.1" remote="github" />
-  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" revision="8153c90187f83aa34677139451b2b46db37fbeb2" remote="aosp-klp" />
+  <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" revision="b72f878d7a5a83be1c4824007b9db629490b34e4" remote="aosp-klp" />
 </manifest>
