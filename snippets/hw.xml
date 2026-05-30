@@ -25,8 +25,8 @@
   <project path="hardware/qcom/display" name="platform/hardware/qcom/display" groups="qcom" revision="a80e42523ad00fdca7e33a76a6cb78469042777b" remote="aosp-klp" />
   <project path="hardware/qcom/sensors" name="platform/hardware/qcom/sensors" groups="qcom" revision="07c5bcdb36158e22d33bac02eecd83d4ff1fb2f8" remote="aosp-klp" />
   <project path="hardware/invensense" name="platform/hardware/invensense" groups="invensense" revision="9b98ed996e18d6097c9976c9cfe9a0c9397998fe" remote="aosp-klp" />
-  <project path="hardware/libhardware" name="platform_hardware_libhardware" groups="pdk" revision="cm-10.2" remote="cm" />
+  <project path="hardware/libhardware" name="android_hardware_libhardware" groups="pdk" revision="cm-10.2" remote="cm" />
   <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" revision="5393a0f77c5281735888bd9dcf8d8abeb5961461" remote="aosp-klp" />
-  <project path="hardware/broadcom/wlan" name="platform/hardware/broadcom/wlan" groups="broadcom_wlan" revision="cm-10.2" remote="cm" />
+  <project path="hardware/broadcom/wlan" name="android_hardware_broadcom_wlan" groups="broadcom_wlan" revision="cm-10.2" remote="cm" />
   <project path="hardware/libhardware_legacy" name="android_hardware_libhardware_legacy" groups="pdk" revision="cm-10.2" remote="cm" />
 </manifest>
