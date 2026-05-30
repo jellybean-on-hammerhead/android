@@ -24,7 +24,7 @@
   <remove-project name="platform/packages/apps/Bluetooth" />
  <!-- Removal of stuff that is getting replaced to make this work in the first place -->
 
-  <project path="platform/packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk" revision="cm-10.2" remote="cm" />
+  <project path="platform/packages/apps/Bluetooth" name="android_packages_apps_Bluetooth" groups="pdk" revision="stable/cm-10.2" remote="cm" />
   <project path="external/bluetooth/bluedroid" name="android_external_bluetooth_bluedroid" groups="pdk" revision="cm-10.2" remote="cm" />
   <project path="hardware/broadcom/libbt" name="android_hardware_broadcom_libbt" groups="pdk" revision="cm-10.2" remote="cm" />
   <project path="hardware/qcom/msm8x74" name="platform/hardware/qcom/msm8x74" groups="qcom_msm8x74" revision="7a90a415fdbdc9397677f6339f0c2fb402dcae29" remote="aosp-klp"/>
